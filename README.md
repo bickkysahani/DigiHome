@@ -27,7 +27,7 @@ Dillinger uses a number of open source projects to work properly:
 
 - [Flask] - Powerful Python Based Web Framework
 - [MongoDB] - NoSQL based Database
-- [GraphQL] - a query language for APIs and a runtime for fulfilling those queries with your existing data
+- [React] - a Powerful Javascript Based Web Framework for frontend
 - [Docker] - containerization tool
 
 
@@ -68,3 +68,45 @@ npm run dev
 
 
   
+## API Docs
+
+#### Lights APIs:
+###### User List API
+Path: /list_lights
+Request: 
+```
+
+```
+Response:
+```
+[
+  {
+    "created_on": "Nov 30 2021 10:06:35", 
+    "id": "61a6682b51cbc70a83d04bbc", 
+    "light_color": "red", 
+    "light_name": "h1", 
+    "light_state": true
+  }
+]
+```
+
+
+
+#### Thermostats APIs:
+
+Path: /list_thermostat
+Request: 
+```
+
+```
+Response:
+```
+[
+  {
+    "created_on": "Nov 30 2021 10:15:38", 
+    "id": "61a66a4a51cbc70a83d04bbe", 
+    "temperature": "105", 
+    "thermostat_name": "h1"
+  }
+]
+```
