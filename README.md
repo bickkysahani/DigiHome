@@ -23,7 +23,7 @@ A simple Flask based Home Automation app where users can add, update and remove 
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+DigiHome uses a number of open source projects to work properly:
 
 - [Flask] - Powerful Python Based Web Framework
 - [MongoDB] - NoSQL based Database
@@ -70,6 +70,8 @@ npm run dev
 
 ![App Screenshot](screenshots/add-light.png)
 ![App Screenshot](screenshots/list_light.png)
+![App Screenshot](screenshots/update-light.png)
+![App Screenshot](screenshots/delete-light.png)
 ![App Screenshot](screenshots/add_thermostats.png)
 ![App Screenshot](screenshots/thermostats.png)
 ![App Screenshot](screenshots/log-history.png)
